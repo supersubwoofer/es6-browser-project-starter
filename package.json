@@ -1,0 +1,22 @@
+{
+  "name": "es6-browser-project-starter",
+  "version": "1.0.0",
+  "description": "Basic ES6 Browser project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack --watch & webpack-dev-server --open-page 'index.html'",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Chun Wing Cheng",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
